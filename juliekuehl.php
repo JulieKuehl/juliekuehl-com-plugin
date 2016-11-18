@@ -127,7 +127,7 @@ function kuehl_register_cpts() {
 		"hierarchical" => false,
 		"rewrite" => array( "slug" => "presentations", "with_front" => true ),
 		"query_var" => true,
-
+		"menu_icon" => "dashicons-megaphone",
 		"supports" => array( "title", "revisions" ),
 		"taxonomies" => array( "category", "post_tag" ),
 	);
@@ -164,7 +164,7 @@ function kuehl_register_cpts() {
 		"hierarchical" => false,
 		"rewrite" => array( "slug" => "resources", "with_front" => true ),
 		"query_var" => true,
-
+		"menu_icon" => "dashicons-lightbulb",
 		"supports" => array( "title", "revisions" ),
 		"taxonomies" => array( "category", "post_tag" ),
 	);
